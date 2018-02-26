@@ -2,8 +2,10 @@
 import client from "socket.io-client"
 
 export default class ServerApi {
-  constructor(server) {
-    this.socket = client(`${server}`, { secure: true })
+  constructor(wsServerUrl = "", path = "") {
+    this.socket = client(wsServerUrl, {
+      path: `${path}/socket.io`
+    })
   }
 
   get id() {
