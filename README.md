@@ -1,11 +1,13 @@
-# Dependencies
+# Client application for the eppsa-mobile-game
 
-* Git Json Api
-* Websocket server
+# Dependencies
+  * [eppsa-mobile-game-server](https://github.com/j-era/eppsa-mobile-game-server/)
+  * [git-json-api](https://github.com/artcom/git-json-api)
 
 # Development
 
+* `npm install`
 * `HTTPS=true npm run watch`
-* Open https://localhost:3000/?gitJsonApi=<gitJsonApiUrl>&wsServer=<wsServerUrl>&wsServerPath=<wsServerPath>
-* Example:
-https://localhost:3000/?gitJsonApi=https://cms.local.eppsa.de&wsServer=https://game.local.eppsa.de&wsServerPath=/server
+
+###  Example
+* Open `https://localhost:3000/?gitJsonApi=<gitJsonApiUrl>&wsServer=<wsServerUrl>`
