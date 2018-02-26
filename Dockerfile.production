@@ -14,6 +14,7 @@ COPY config /app/config
 COPY src /app/src
 COPY public /app/public
 
+ARG WS_SERVER_PATH
 RUN npm run build
 
 ADD public/index.html /app/public/index.html
