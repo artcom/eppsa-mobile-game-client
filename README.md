@@ -1,8 +1,9 @@
 # Client application for the eppsa-mobile-game
 
 # Dependencies
-  * [eppsa-mobile-game-server](https://github.com/j-era/eppsa-mobile-game-server/)
-  * [git-json-api](https://github.com/artcom/git-json-api)
+
+* [eppsa-mobile-game-server](https://github.com/j-era/eppsa-mobile-game-server/)
+* [git-json-api](https://github.com/artcom/git-json-api)
 
 # Development
 
